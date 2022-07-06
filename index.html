@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Ayakkabıcım</title>
+    <style>
+        .navbar-menu>a {
+            display: block;float: left; padding: 30px 16px; text-decoration: none;
+        }
+        li{
+            list-style-type: none;
+           border-style: outset;
+           border-radius: 50px;    
+           background: radial-gradient(circle, rgba(255,0,0,1) 7%, rgba(28,95,175,1) 90%);  
+        }
+        li>a{
+            color:whitesmoke;
+        }
+        body{
+            background-color:  #E9ECEF;
+        }
+    </style>
+  </head>
+  <body>
+    <!------------------------------------- NAVBAR -------------------------------------->
+        <nav class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <a style="padding: 14px;" href="index.html" class="navbar-brand text-primary"><img src="images/shoe_icon.png" alt="shoes" width="60px"> Ayakkabıcım</a>
+                    </div>
+                    <div class="col-9">
+                        <div class="navbar-menu">
+                            <a class="text-light" href="index.html">AnaSayfa</a>
+                            <a class="text-light" href="products.html">Ürünlerimiz</a>
+                            <a class="text-light" href="aboutus.html">Hakkımızda</a>
+                            <a class="text-light" href="contact.html">İletişim</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+       <!--------------------------------- JUMBOTRON -------------------------------------->
+        <div class="jumbotron" style="text-align: center;">
+            <h1 class="display-4 text-primary">AYAKKABICIM</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti adipisci perspiciatis culpa dolorum eum natus non dolores, at iusto. Voluptatem.</p>
+            <hr class="my-4">
+            <h3 class="text-info">Ayakkabı Çeşitlerimiz</h3>
+            <ul style="text-align: left;display: inline-block;">
+                <li><a href="products.html#classic" class="btn btn-sm">Klasik Ayakkabı</a></li>
+                <li><a href="products.html#indoor" class="btn btn-sm">Ev Ayakkabısı</a></li>
+                <li><a href="products.html#sport" class="btn btn-sm">Spor Ayakkabı</a></li>
+                <li><a href="products.html#evening" class="btn btn-sm">Abiye Ayakkabı</a></li>
+                <li><a href="products.html#boots" class="btn btn-sm">Botlar</a></li>
+            </ul>
+            <hr>
+            <div class="btn-group">
+                <a class="btn btn-lg btn-dark" href="aboutus.html" role="button">Hakkımızda</a>
+                <a class="btn btn-lg btn-dark" href="products.html" role="button"> Ürünlerimiz</a>
+                <a class="btn btn-lg btn-dark" href="contact.html" role="button">İletişim</a>
+            </div>
+
+        </div>
+  </body>
+</html>
